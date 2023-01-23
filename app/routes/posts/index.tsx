@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from "remix";
+import { Link, useLoaderData } from "@remix-run/react";
 import { getPosts, Post } from "~/posts";
 
 export const loader = async () => {
